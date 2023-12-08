@@ -2,8 +2,10 @@
 body {
     font-family: 'Lemon/Milk', sans-serif;
     font-family: 'Lemon/Milk light', sans-serif;
-    background-image: url('./assets/bggg.png');
+    background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin: 0;
+    background-size: cover;
 }
 

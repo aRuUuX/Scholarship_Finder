@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ScholarshipsComponent } from './scholarships.component';
-import { ScholarshipRoutingModule } from './scholarship-routing.module';
+import { ScholarshipsRoutingModule } from './scholarships-routing.module';
 
 
 
@@ -11,7 +11,7 @@ import { ScholarshipRoutingModule } from './scholarship-routing.module';
   ],
   imports: [
     CommonModule,
-    ScholarshipRoutingModule
+    ScholarshipsRoutingModule
   ]
 })
 export class ScholarshipsModule { }

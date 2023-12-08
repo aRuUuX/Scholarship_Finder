@@ -86,6 +86,13 @@
   border-radius: 30px;
 }
 
+.btn-email:hover {
+  background-color: white;
+  color: #00575e;
+  border-style: solid;
+  border-color: #00575e;
+}
+
 .btn-facebook {
   margin-top: 10px;
   border: solid;
@@ -94,6 +101,16 @@
   width: 300px;
   height: 40px;
   border-radius: 30px;
+}
+
+.btn-facebook:hover {
+  background-color: #00575e;
+  color: white;
+}
+
+.btn-phone:hover {
+  background-color: #00575e;
+  color: white;
 }
 
 .btn-phone {

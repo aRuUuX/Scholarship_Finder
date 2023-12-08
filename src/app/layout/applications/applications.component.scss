@@ -1,0 +1,110 @@
+h1 {
+    color: #00575e;
+}
+
+.navbar {
+    color: #00575e;
+    margin-top: 30px;
+}
+
+.navbar p {
+    display: inline-block;
+}
+
+.searchbar {
+    padding-right: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border-style:solid;
+    border-color: #00575e;
+    border-width: 2px;
+}
+
+.container {
+    width: 1300px;
+    height: 500px;
+    background-color: #00575e;
+    color: white;
+    border-radius: 20px;
+}
+
+.titles {
+    display: flex;
+    margin-left:30px;
+}
+
+.datas {
+    display: flex;
+    margin-left:20px;
+    background-color: white;
+    color: #00575e;
+    border-radius: 30px;
+    padding-top: 4px;
+    margin-right: 15px;
+}
+
+.datas p {
+    margin: 0px;
+}
+
+.no {
+    width: 60px;
+}
+
+.no-data {
+    width: 50px;
+    padding-left: 20px;
+}
+
+.firstname {
+    width: 140px;
+}
+
+.lastname {
+    width: 140px;
+}
+
+.email {
+    width: 200px;
+}
+
+.phone {
+    width: 170px;
+}
+
+.address {
+    width: 170px;
+}
+
+.scholarship {
+    width: 200px;
+}
+
+.email-person {
+    font-size: 13px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.datas button {
+    color: white;
+    border-radius: 10px;
+    background-color: #00575e;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    padding-right: 20px;
+    border-style: none;
+}
+
+.datas button:hover {
+    background-color: white;
+    color: #00575e;
+    border-style: solid;
+    border-color: #00575e;
+}

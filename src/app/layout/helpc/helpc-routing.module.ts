@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { ScholarshipsComponent } from './scholarships.component';
+import { HelpcComponent } from './helpc.component';
 
 
 const routes : Routes = [
   {
     path: '',
-    component: ScholarshipsComponent
+    component: HelpcComponent
   }
 ]
 
@@ -16,4 +16,4 @@ const routes : Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ScholarshipRoutingModule { }
+export class HelpcRoutingModule { }

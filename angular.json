@@ -96,6 +96,7 @@
               "src/styles.scss"
             ],
             "scripts": [
+              "scholarship-finder/src/assets/script.js"
             ]
           }
         }

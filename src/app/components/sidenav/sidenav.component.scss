@@ -1,0 +1,71 @@
+.sidenav {
+    margin-left: 30px;
+    padding-top: 40px;
+    padding-right: 30px;
+}
+
+.sidenav .name h1{
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 50px;
+}
+
+.sidenav-items {
+    color: #fbfefe;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.dashboard {
+    text-align: center;
+    width: 220px;
+    display: flex;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    border-style: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Lemon/Milk', sans-serif;
+    font-family: 'Lemon/Milk light', sans-serif;
+}
+
+.dashboard:hover {
+    background-color: white;
+    color: #00575e;
+}
+
+.special {
+    background-color: white;
+    color: #00575e;
+}
+
+.dashboard .img {
+    width: 70px;
+    height: 30px;
+    position: relative;
+}
+
+.img img {
+    width: 70px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.top-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.dashboard:hover > .img > .top-img {
+    opacity: 1;
+}
+
+.links {
+    text-decoration: none !important;
+}

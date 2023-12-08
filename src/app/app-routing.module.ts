@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { RegisterModule } from './register/register.module';
 
 const routes: Routes = [
   {
@@ -7,14 +8,8 @@ const routes: Routes = [
     loadChildren: () => import('./homepage/homepage.module').then(mod => mod.HomepageModule),
   },
   {
-    path: "dashboard",
-    loadChildren: () => import('./dashboard/dashboard.module').then(mod => mod.DashboardModule),
-
-  },
-  {
-    path: "homepage",
-    loadChildren: () => import('./homepage/homepage.module').then(mod => mod.HomepageModule),
-
+    path: "layout",
+    loadChildren: () => import('./layout/layout.module').then(mod => mod.LayoutModule),
   },
   {
     path: "login",
@@ -23,11 +18,6 @@ const routes: Routes = [
   {
     path: "register",
     loadChildren: () => import('./register/register.module').then(mod => mod.RegisterModule),
-  },
-  {
-    path: "scholarships",
-    loadChildren: () => import('./scholarships/scholarships.module').then(mod => mod.ScholarshipsModule),
-
   }
 ];
 

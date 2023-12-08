@@ -4,10 +4,40 @@ import { RouterModule, Routes } from '@angular/router';
 import { LayoutComponent } from './layout.component';
 
 
-const routes: Routes = [
+const routes : Routes = [
   {
     path: '',
-    component: LayoutComponent
+    component: LayoutComponent,
+    children:[
+      {
+        path: "",
+        redirectTo: "dashboard", pathMatch:"prefix",
+      },
+      {
+        path: "dashboard",
+        loadChildren: () => import('./dashboard/dashboard.module').then(mod => mod.DashboardModule),
+      },
+      {
+        path: "applications",
+        loadChildren: () => import('./applications/applications.module').then(mod => mod.ApplicationsModule),
+      },
+      {
+        path: "scholarships",
+        loadChildren: () => import('../layout/scholarships/scholarships.module').then(mod => mod.ScholarshipsModule),
+      },
+      {
+        path: "help",
+        loadChildren: () => import('./helpc/helpc.module').then(mod => mod.HelpcModule),
+      },
+      {
+        path: "notifications",
+        loadChildren: () => import('./notifications/notifications.module').then(mod => mod.NotificationsModule),
+      },
+      {
+        path: "messages",
+        loadChildren: () => import('./messages/messages.module').then(mod => mod.MessagesModule),
+      }
+    ]
   }
 ]
 

@@ -1,0 +1,64 @@
+h1 {
+    color: #00575e;
+}
+
+.container {
+     background-color: #00575e;
+     width: 1250px;
+     padding: 30px;
+     height: 700px;
+     color: white;
+     border-radius: 30px;
+}
+
+.notif {
+    display: flex;
+}
+
+.circle {
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;background-color: white;
+    margin-right: 40px;
+    border-radius: 50px;
+}
+
+.title-comment {
+    margin-bottom: 10px;
+    background-color: gray;
+    display: inline;
+    padding: 5px;
+}
+
+.title-message {
+    margin-bottom: 10px;
+    background-color: rgb(36, 170, 204);
+    display: inline;
+    padding: 5px;
+}
+
+.title-accepted {
+    margin-bottom: 10px;
+    background-color: rgb(53, 190, 53);
+    display: inline;
+    padding: 5px;
+}
+
+.title-denied {
+    margin-bottom: 10px;
+    background-color: rgb(190, 62, 53);
+    display: inline;
+    padding: 5px;
+}
+
+.title-wait {
+    margin-bottom: 10px;
+    background-color: orange;
+    display: inline;
+    padding: 5px;
+}
+
+.details {
+    margin-top: 10px;
+}

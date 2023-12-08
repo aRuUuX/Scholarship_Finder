@@ -29,7 +29,7 @@
 .topnav-end {
     display: flex;
     flex: 1;
-    align-items: center;
+    align-items: end;
 }
 
 .topnav-end input{
@@ -85,4 +85,94 @@
     line-height: 35px;
     color: #7c7e80;
     margin-right: 20px;
+}
+
+.find {
+    border-style: solid;
+    border-color: #ffb74b;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Lemon/Milk', sans-serif;
+    font-family: 'Lemon/Milk light', sans-serif;
+    letter-spacing: 3px;
+}
+
+.find:hover {
+    background-color: #ffb74b;
+    color: white;
+}
+
+.scholarships {
+    margin-left: 100px;
+}
+
+.scholarships h2{
+    color: #00575e;
+}
+
+.scholarship-cards {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    display: flex;
+}
+
+.cards {
+    background-color: #e4eef8;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+}
+
+.empty {
+    height: 220px;
+}
+
+.cards p {
+    color: #00575e;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.about {
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.about h2 {
+    color: #00575e;
+}
+
+.container-about {
+    width: 90%;
+    height: 500px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.picture-about {
+    width: 500px;
+    height: 500px;
+    background-color:white;
+}
+
+.details-about  div{
+    width: 600px;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.details-about {
+    margin-top: 30px;
+}
+
+.one {
+    background-color: #00575e;
+}
+
+.two {
+    background-color:#ffb74b;
 }
